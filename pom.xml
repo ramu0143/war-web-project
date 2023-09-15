@@ -31,6 +31,21 @@
   		<scope>provided</scope>
   	</dependency>
   </dependencies>
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>idfc-release</name>
+	      <url>http://34.232.78.219:8081/repository/idfc-snapshoot/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>idfc-snapshoot</name>
+	      <url>http://34.232.78.219:8081/repository/idfc-snapshoot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
   <build>
     <plugins>
       <plugin>
